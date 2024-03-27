@@ -33,14 +33,21 @@ function convertValues() {
     console.log(converter)
 }
 function trocarMoeda() {
-    console.log('trocou de moeda')
+    const nomeDol = document.getElementById('nome-dol')
+    const moedaEua = document.querySelector(".moeda-usa")
+
+    
+    if (mudarSelect.value == "dolar") {
+        nomeDol.innerHTML = "Dólar americano"
+        moedaEua.src = "./assets/eua.png"
+    }
+    if (mudarSelect.value == "euro") {
+        nomeDol.innerHTML = "Euro"
+        moedaEua.src = "./assets/euro.png"
+    }
+    convertValues()
 }
 
-mudarSelect.addEventListener('change', trocarMoeda)
+    mudarSelect.addEventListener('change', trocarMoeda)
 
-convertButton.addEventListener("click", convertValues)
-
-
-
-
-
+    convertButton.addEventListener("click", convertValues)
