@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(102, 22, 194);
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+.container {
+    width: 375px;
+    height: 712px;
+    background-color: #e6e0e0;
+    position: relative;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    border: 1px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    color: #BBBBBB solid;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: black
+}
+
+button {
+        font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 300px;
+    height: 40px;
+    background: #772FD3;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+button:active{
+    opacity: 0.6;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.wraper {
+    width: 327px;
+    height: 276px;
+    border: 1px solid;
+    border-color: #777777;
+    border-radius: 20px;
+    display: block;
+    margin-top: 55px;
+}
+
+
+.realbr {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: 10px auto
+}
+
+.moeda-bras {
+    font-size: 15px bold;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    
+
+}
+
+.valorBr {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #555555;
+   }
+
+.seti {
+    width: 35px;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+}
+
+img {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+}
+
+.dol {
+    font-size: 15px bold;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.valorEua {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #555555;
+}
